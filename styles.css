@@ -1,0 +1,24 @@
+.toplayer {
+    display:flex;
+    flex-direction:column;
+}
+.top1 {
+    display:flex;
+    justify-content: space-around;
+}
+
+.top2 {
+    display:flex;
+    flex-direction:row;
+    gap: 15px;
+}
+
+.top3 {
+    display:flex;
+    flex-direction:row;
+}
+
+.top4 {
+    display:flex;
+    flex-direction:column;
+}
