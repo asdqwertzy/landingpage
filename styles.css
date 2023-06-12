@@ -40,10 +40,31 @@
     text-align: center;
     justify-content: space-between;
     gap:100px;
-   
+} 
 
 .img1 .img2 .img3 .img4 {
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
+}
+
+.thirdlayer {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:200px 500px;
+}
+.author {
+    display:flex;
+    justify-content:flex-end;
+}
+
+.fourthlayer {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.footer {
+    text-align:center;
 }
